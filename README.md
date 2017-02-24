@@ -21,21 +21,16 @@ $ npm run build
 
 $ npm run watch
 
-# Testing
-
-$ npm test
 ```
 
 ## Test
 ```
 $ npm test
-
 ```
 
 ## Lint:script
 ```
 $ npm run lint:script
-
 ```
 
 
