@@ -26,6 +26,19 @@ $ npm run watch
 $ npm test
 ```
 
+## Test
+```
+$ npm test
+
+```
+
+## Lint:script
+```
+$ npm run lint:script
+
+```
+
+
 ___
 
 #### Thanks to ...

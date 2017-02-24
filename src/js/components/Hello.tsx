@@ -1,12 +1,12 @@
-import * as React from "react";
+import * as React from 'react';
 
 interface HelloProps {
     name: string;
 }
 
 class Hello extends React.Component<HelloProps, {}> {
-    render() {
-        return <div>Hello, {this.props.name}</div>;
+    public render(): JSX.Element {
+        return <div>Hello , {this.props.name}</div>;
     }
 }
 

@@ -3,10 +3,11 @@
   "version": "0.0.1",
   "main": "index.html",
   "scripts": {
-    "postinstall": "webpack && npm test",
+    "postinstall": "webpack && npm test && npm run lint:script",
     "build": "webpack",
     "watch": "webpack --progress --watch",
-    "test": "ts-node node_modules/tape/bin/tape ./tests/index.tsx | colortape"
+    "test": "ts-node node_modules/tape/bin/tape ./tests/index.tsx | colortape",
+    "lint:script": "tslint -c './tslint.json' './src/js/**/*.ts?(x)'"
   },
   "author": "Christian Heyn",
   "license": "ISC",
@@ -29,6 +30,8 @@
     "tape": "^4.6.3",
     "ts-loader": "^2.0.1",
     "ts-node": "^2.1.0",
+    "tslint": "^4.4.2",
+    "tslint-react": "^2.4.0",
     "typescript": "^2.2.1",
     "webpack": "^2.2.1"
   },

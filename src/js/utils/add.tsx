@@ -1,5 +1,5 @@
 export default class {
-    add(a: number, b: number) {
-    	return a + b;
+    public add(a: number, b: number): number {
+        return a + b;
     }
 }
