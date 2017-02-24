@@ -1,6 +1,5 @@
 # react+typescript basic
-
-https://travis-ci.org/christianheyn/react-typescript-basic.svg?branch=master
+[![Build Status](https://travis-ci.org/christianheyn/react-typescript-basic.svg?branch=master)](https://travis-ci.org/christianheyn/react-typescript-basic)
 
 Basic config for work with typescript and react.
 
