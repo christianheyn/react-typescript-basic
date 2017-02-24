@@ -1,4 +1,7 @@
 # react+typescript basic
+
+https://travis-ci.org/christianheyn/react-typescript-basic.svg?branch=master
+
 Basic config for work with typescript and react.
 
 ## Install
@@ -18,7 +21,12 @@ $ npm run build
 # OR watch files
 
 $ npm run watch
+
+# Testing
+
+$ npm test
 ```
+
 ___
 
 #### Thanks to ...
